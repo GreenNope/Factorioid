@@ -12,7 +12,7 @@ function render(contextIn, mapIn) {
      if (mapIn[y][x] == "1") {
        contextIn.fillStyle = "#00FF00"
      } else {contextIn.fillStyle = "#000000"}
-     contextIn.fillRect(x * 20, y * 20, (x + 1) * 20, (y + 1) * 20); 
+     contextIn.fillRect(x * 20, y * 20, x * 20 + 20, y * 20 + 20); 
    }
  }
   
