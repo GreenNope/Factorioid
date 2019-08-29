@@ -17,3 +17,5 @@ function render(contextIn, mapIn) {
  }
   
 }
+
+render(ctx, map);
